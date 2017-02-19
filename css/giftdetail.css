@@ -1,0 +1,141 @@
+/*gift*/
+.gift {
+  padding-top: .21rem;
+}
+.gift div {
+  height: .74rem;
+  line-height: .74rem;
+  font-size: .33rem;
+  font-weight: bold;
+  color: #4C4C4C;
+}
+.gift p {
+  font-size: .32rem;
+  line-height: .47rem;
+  color: #4C4C4C;
+}
+.gift span {
+  display: inline-block;
+  font-size: .32rem;
+  line-height: .47rem;
+  color: #FF7979;
+  padding-bottom: .47rem;
+}
+/*me表格*/
+.me .header {
+  height: .73rem;
+  line-height: .73rem;
+  text-align: center;
+  background: #FFE6E6;
+  font-size: .28rem;
+  font-weight: bold;
+}
+.me table {
+  font-size: .28rem;
+  font-family: "宋体";
+  color: #4C4C4C;
+  width: 100%;
+  border: .01rem solid #E1E1E1;
+  border-collapse: collapse;
+}
+.me table tr {
+  width: 100%;
+}
+.me table tr td {
+  border: .01rem solid #E1E1E1;
+  border-collapse: collapse;
+  height: .71rem;
+  line-height: .71rem;
+  text-align: center;
+  width: 33%;
+}
+.me table tr td.two {
+  line-height: .35rem;
+  padding: .1rem;
+}
+/*footer*/
+footer {
+  text-align: center;
+  color: #C3C3C3;
+  font-size: .2rem;
+}
+.banner img {
+  width: 100%;
+}
+.buy {
+  margin-top: .2rem;
+  font-family: "宋体";
+}
+.buy p {
+  height: .54rem;
+  line-height: .54rem;
+  font-size: .34rem;
+  font-weight: bold;
+}
+.buy .price {
+  height: .9rem;
+  line-height: .9rem;
+  margin-bottom: .15rem;
+}
+.buy .price span {
+  font-size: .38rem;
+  color: #FF2E19;
+  padding-right: .1rem;
+}
+.buy .price em {
+  font-size: .24rem;
+  padding-right: .1rem;
+  color: #FF2E19;
+}
+.buy .price del {
+  font-size: .24rem;
+  color: #A1A1A1;
+}
+.buy .price .express {
+  font-size: .26rem;
+  color: #A1A1A1;
+}
+.dis20 {
+  height: .2rem;
+  background: #F9F9F9;
+}
+.detail {
+  height: .9rem;
+  line-height: .9rem;
+  font-size: .23rem;
+  color: #E3E3E3;
+  border-bottom: .01rem solid #E1E1E1;
+  padding: 0 .2rem;
+}
+.detail span {
+  border: .13rem solid transparent;
+  border-left-color: #E3E3E3;
+}
+.introduce {
+  padding-top: .25rem;
+  padding-bottom: .18rem;
+}
+.introduce p {
+  height: .45rem;
+  line-height: .45rem;
+  font-size: .23rem;
+}
+.introduce p:nth-last-of-type(1) {
+  /*倒数第一个*/
+  padding-bottom: .09rem;
+}
+.introduce img {
+  width: 100%;
+}
+footer {
+  justify-content: center;
+  width: 100%;
+}
+footer a {
+  height: .85rem;
+  line-height: .85rem;
+  background: #ED7097;
+  width: 100%;
+  font-size: .28rem;
+  border-radius: 10px;
+}

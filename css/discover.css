@@ -1,0 +1,94 @@
+/*ͷ��*/
+.header {
+  margin: .2rem;
+}
+.header h1 {
+  font-size: .24rem;
+  color: #4c4c4c;
+  line-height: .4rem;
+  margin: .67em 0;
+}
+.header .title1 {
+  font-size: .16rem;
+}
+.header .title1 span {
+  color: #e8628b;
+}
+.header .title1 .time {
+  color: #a1a1a1;
+}
+/*����*/
+.content-warp {
+  border-top: .01rem solid #e1e1e1;
+  border-bottom: .01rem solid #e1e1e1;
+  padding: .2rem;
+}
+.content-warp .content {
+  font-size: .18rem;
+  line-height: 26px;
+  color: #4c4c4c;
+}
+.content-warp .content p {
+  margin: .18rem 0;
+  font-family: Helvetica, MicrosoftYaHei, serif;
+  font-size: .18rem;
+}
+.content-warp .external-link {
+  height: .8rem;
+  padding: .1rem .05rem .1rem .05rem;
+  background-color: #f9f9f9;
+}
+.content-warp .external-link img {
+  width: .6rem;
+  height: .6rem;
+}
+.content-warp .external-link .info {
+  flex: 1 1 auto;
+  margin: 0 .2rem;
+}
+.content-warp .external-link .info .title {
+  color: #4c4c4c;
+  font-size: .16rem;
+}
+.content-warp .external-link .info .desc {
+  color: #a1a1a1;
+  font-size: .14rem;
+}
+.content-warp .external-link button {
+  border: .01rem solid #e8628b;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #e8628b;
+  font-size: .14rem;
+  height: .4rem;
+  line-height: .4rem;
+  padding: 0 .08rem;
+}
+.content-warp .operation {
+  margin: .45rem 0;
+}
+.content-warp .operation .up {
+  width: .56rem;
+  height: .56rem;
+  background: url("../images/up_1.png") no-repeat;
+  background-size: 100%;
+}
+.content-warp .operation .comment {
+  width: .56rem;
+  height: .56rem;
+  background: url("../images/comment_1.png") no-repeat;
+  background-size: 100%;
+}
+.content-warp .operation .share {
+  width: .56rem;
+  height: .56rem;
+  background: url("../images/share_1.png") no-repeat;
+  background-size: 100%;
+}
+.content-warp img {
+  width: 100%;
+}
+.content-warp label {
+  color: #4c4c4c;
+  font-size: .16rem;
+}

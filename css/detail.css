@@ -1,0 +1,126 @@
+body {
+  margin: .2rem 0;
+}
+/*头部*/
+.header {
+  margin: .2rem;
+}
+.header h1 {
+  font-size: .24rem;
+  color: #4c4c4c;
+  line-height: .4rem;
+  margin: .67em 0;
+}
+.header .title1 {
+  font-size: .16rem;
+}
+.header .title1 span {
+  color: #e8628b;
+}
+.header .title1 .time {
+  color: #a1a1a1;
+}
+/*内容*/
+.content-warp {
+  border-top: .01rem solid #e1e1e1;
+  border-bottom: .01rem solid #e1e1e1;
+  padding: .2rem;
+}
+.content-warp .content {
+  font-size: .18rem;
+  line-height: 26px;
+  color: #4c4c4c;
+}
+.content-warp .content p {
+  margin: .18rem 0;
+  font-family: Helvetica, MicrosoftYaHei, serif;
+  font-size: .22rem;
+}
+.content-warp .operation {
+  margin: .45rem 0;
+}
+.content-warp .operation .up {
+  width: .64rem;
+  height: .64rem;
+  background: url("../images/up_1.png") no-repeat;
+  background-size: 100%;
+}
+.content-warp .operation .comment {
+  width: .64rem;
+  height: .64rem;
+  background: url("../images/comment_1.png") no-repeat;
+  background-size: 100%;
+}
+.content-warp .operation .share {
+  width: .64rem;
+  height: .64rem;
+  background: url("../images/share_1.png") no-repeat;
+  background-size: 100%;
+}
+.content-warp img {
+  width: 100%;
+}
+.content-warp label {
+  color: #4c4c4c;
+  font-size: .16rem;
+}
+/*评论*/
+.comments .comments-hint {
+  height: .6rem;
+  text-align: center;
+}
+.comments .comments-hint span {
+  display: block;
+  margin: auto;
+  font-size: .18rem;
+  color: #e8628b;
+  line-height: .6rem;
+  height: .6rem;
+}
+.comments .comments-list {
+  border-top: .01rem solid #e1e1e1;
+  border-bottom: .01rem solid #e1e1e1;
+  padding: 0 .2rem;
+}
+.comments .comments-list li {
+  margin-top: 20px;
+}
+.comments .comments-list li img {
+  width: .56rem;
+  height: .56rem;
+  flex: 0 1 .42rem;
+  margin-right: .18rem;
+}
+.comments .comments-list li .comment-warp {
+  flex: 1 1 auto;
+}
+.comments .comments-list li .comment-warp .author {
+  font-size: .24rem;
+  color: #4c4c4c;
+}
+.comments .comments-list li .comment-warp .publish_time {
+  font-size: .14rem;
+  color: #e1e1e1;
+  line-height: .3rem;
+}
+.comments .comments-list li .comment-warp p {
+  color: #4c4c4c;
+  margin: .16rem 0;
+  font-size: .2rem;
+}
+.comments .comments-list a {
+  color: #A1A1A1;
+  margin: 0 .05rem;
+}
+.comments .comments-list a.up {
+  padding-left: .25rem;
+  background: url(../images/comment_up_1.png) no-repeat left center;
+  background-size: .18rem auto;
+  font-size: .16rem;
+}
+.comments .comments-list a.comment {
+  padding-left: .25rem;
+  background: url(../images/comment_comment_1.png) no-repeat left center;
+  background-size: .18rem auto;
+  font-size: .16rem;
+}
