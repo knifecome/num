@@ -1,61 +1,63 @@
-/*ͷ��*/
-.header {
+.article-discovery {
+  /*ͷ��*/
+  /*����*/
+}
+.article-discovery .header {
   margin: .2rem;
 }
-.header h1 {
+.article-discovery .header h1 {
   font-size: .42rem;
   font-weight: bold;
   color: #4c4c4c;
   line-height: .70rem;
   margin: .67em 0;
 }
-.header .title1 {
+.article-discovery .header .title1 {
   font-size: .36rem;
 }
-.header .title1 span {
+.article-discovery .header .title1 span {
   color: #e8628b;
 }
-.header .title1 .time {
+.article-discovery .header .title1 .time {
   color: #a1a1a1;
 }
-/*����*/
-.content-warp {
+.article-discovery .content-warp {
   border-top: 1px solid #e1e1e1;
   border-bottom: 1px solid #e1e1e1;
   padding: .2rem;
 }
-.content-warp .content {
+.article-discovery .content-warp .content {
   font-size: .18rem;
   line-height: .78rem;
   color: #4c4c4c;
 }
-.content-warp .content p {
+.article-discovery .content-warp .content p {
   margin: .18rem 0;
   font-family: Helvetica, MicrosoftYaHei, serif;
   font-size: .36rem;
 }
-.content-warp .external-link {
+.article-discovery .content-warp .external-link {
   height: 1.6rem;
   padding: .1rem .1rem .1rem .1rem;
   background-color: #f9f9f9;
 }
-.content-warp .external-link img {
+.article-discovery .content-warp .external-link img {
   width: 1.4rem;
   height: 1.4rem;
 }
-.content-warp .external-link .info {
+.article-discovery .content-warp .external-link .info {
   flex: 1 1 auto;
   margin: 0 .2rem;
 }
-.content-warp .external-link .info .title {
+.article-discovery .content-warp .external-link .info .title {
   color: #4c4c4c;
   font-size: .32rem;
 }
-.content-warp .external-link .info .desc {
+.article-discovery .content-warp .external-link .info .desc {
   color: #a1a1a1;
   font-size: .3rem;
 }
-.content-warp .external-link button {
+.article-discovery .content-warp .external-link button {
   border: 1px solid #e8628b;
   background-color: #fff;
   border-radius: 5px;
@@ -65,31 +67,31 @@
   line-height: .6rem;
   padding: 0 .08rem;
 }
-.content-warp .operation {
+.article-discovery .content-warp .operation {
   margin: .45rem 0;
 }
-.content-warp .operation .up {
+.article-discovery .content-warp .operation .up {
   width: 1.2rem;
   height: 1.2rem;
   background: url("../images/up_1.png") no-repeat;
   background-size: 100%;
 }
-.content-warp .operation .comment {
+.article-discovery .content-warp .operation .comment {
   width: 1.2rem;
   height: 1.2rem;
   background: url("../images/comment_1.png") no-repeat;
   background-size: 100%;
 }
-.content-warp .operation .share {
+.article-discovery .content-warp .operation .share {
   width: 1.2rem;
   height: 1.2rem;
   background: url("../images/share_1.png") no-repeat;
   background-size: 100%;
 }
-.content-warp img {
+.article-discovery .content-warp img {
   width: 100%;
 }
-.content-warp label {
+.article-discovery .content-warp label {
   color: #4c4c4c;
   font-size: .32rem;
 }

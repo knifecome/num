@@ -1,28 +1,31 @@
-/*gift*/
-.gift {
+.num {
+  /*礼物信息*/
+  /*表格*/
+  /*页脚*/
+}
+.num .gift {
   padding-top: .21rem;
 }
-.gift div {
+.num .gift div {
   height: .74rem;
   line-height: .74rem;
   font-size: .33rem;
   font-weight: bold;
   color: #4C4C4C;
 }
-.gift p {
+.num .gift p {
   font-size: .32rem;
   line-height: .47rem;
   color: #4C4C4C;
 }
-.gift span {
+.num .gift span {
   display: inline-block;
   font-size: .32rem;
   line-height: .47rem;
   color: #FF7979;
   padding-bottom: .47rem;
 }
-/*me表格*/
-.me .header {
+.num .me .header {
   height: .73rem;
   line-height: .73rem;
   text-align: center;
@@ -30,7 +33,7 @@
   font-size: .32rem;
   font-weight: bold;
 }
-.me table {
+.num .me table {
   font-size: .32rem;
   font-family: "宋体";
   color: #4C4C4C;
@@ -38,10 +41,10 @@
   border: 1px solid #E1E1E1;
   border-collapse: collapse;
 }
-.me table tr {
+.num .me table tr {
   width: 100%;
 }
-.me table tr td {
+.num .me table tr td {
   border: 1px solid #E1E1E1;
   border-collapse: collapse;
   height: .71rem;
@@ -49,12 +52,11 @@
   text-align: center;
   width: 33%;
 }
-.me table tr td.two {
+.num .me table tr td.two {
   line-height: .35rem;
   padding: .1rem;
 }
-/*footer*/
-footer {
+.num footer {
   text-align: center;
   color: #C3C3C3;
   font-size: .2rem;

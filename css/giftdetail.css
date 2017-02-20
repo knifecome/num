@@ -1,106 +1,52 @@
-/*gift*/
-.gift {
-  padding-top: .21rem;
+.gift-detail {
+  /*广告区域*/
+  /*购买*/
+  /*详情说明*/
+  /*礼品介绍*/
+  /*footer*/
 }
-.gift div {
-  height: .74rem;
-  line-height: .74rem;
-  font-size: .33rem;
-  font-weight: bold;
-  color: #4C4C4C;
-}
-.gift p {
-  font-size: .32rem;
-  line-height: .47rem;
-  color: #4C4C4C;
-}
-.gift span {
-  display: inline-block;
-  font-size: .32rem;
-  line-height: .47rem;
-  color: #FF7979;
-  padding-bottom: .47rem;
-}
-/*me表格*/
-.me .header {
-  height: .73rem;
-  line-height: .73rem;
-  text-align: center;
-  background: #FFE6E6;
-  font-size: .32rem;
-  font-weight: bold;
-}
-.me table {
-  font-size: .32rem;
-  font-family: "宋体";
-  color: #4C4C4C;
-  width: 100%;
-  border: 1px solid #E1E1E1;
-  border-collapse: collapse;
-}
-.me table tr {
-  width: 100%;
-}
-.me table tr td {
-  border: 1px solid #E1E1E1;
-  border-collapse: collapse;
-  height: .71rem;
-  line-height: .71rem;
-  text-align: center;
-  width: 33%;
-}
-.me table tr td.two {
-  line-height: .35rem;
-  padding: .1rem;
-}
-/*footer*/
-footer {
-  text-align: center;
-  color: #C3C3C3;
-  font-size: .2rem;
-}
-.banner img {
+.gift-detail .banner img {
   width: 100%;
   height: 3.51rem;
 }
-.buy {
+.gift-detail .buy {
   margin-top: .2rem;
   font-family: "宋体";
 }
-.buy p {
+.gift-detail .buy p {
   height: .54rem;
   line-height: .54rem;
   font-size: .44rem;
   font-weight: bold;
 }
-.buy .price {
+.gift-detail .buy .price {
   height: .9rem;
   line-height: .9rem;
   margin-bottom: .15rem;
 }
-.buy .price span {
+.gift-detail .buy .price span {
   font-size: .44rem;
   color: #FF2E19;
   padding-right: .1rem;
 }
-.buy .price em {
+.gift-detail .buy .price em {
   font-size: .36rem;
   padding-right: .1rem;
   color: #FF2E19;
 }
-.buy .price del {
+.gift-detail .buy .price del {
   font-size: .36rem;
   color: #A1A1A1;
 }
-.buy .price .express {
+.gift-detail .buy .price .express {
   font-size: .36rem;
   color: #A1A1A1;
 }
-.dis20 {
+.gift-detail .dis20 {
   height: .2rem;
   background: #F9F9F9;
 }
-.detail {
+.gift-detail .detail {
   height: .9rem;
   line-height: .9rem;
   font-size: .32rem;
@@ -108,33 +54,33 @@ footer {
   border-bottom: .01rem solid #E1E1E1;
   padding: 0 .2rem;
 }
-.detail span {
+.gift-detail .detail span {
   border: .13rem solid transparent;
   border-left-color: #E3E3E3;
 }
-.introduce {
+.gift-detail .introduce {
   padding-top: .25rem;
   padding-bottom: .18rem;
 }
-.introduce p {
+.gift-detail .introduce p {
   height: .45rem;
   line-height: .45rem;
   font-size: .32rem;
 }
-.introduce p:nth-last-of-type(1) {
+.gift-detail .introduce p:nth-last-of-type(1) {
   /*倒数第一个*/
   padding-bottom: .9rem;
 }
-.introduce img {
+.gift-detail .introduce img {
   width: 100%;
   height: 3.51rem;
 }
-footer {
-  justify-content: center;
+.gift-detail footer {
+  text-align: center;
   width: 100%;
   margin-bottom: .16rem;
 }
-footer a {
+.gift-detail footer a {
   height: .85rem;
   line-height: .85rem;
   background: #ED7097;
