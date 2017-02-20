@@ -27,22 +27,22 @@
   line-height: .73rem;
   text-align: center;
   background: #FFE6E6;
-  font-size: .28rem;
+  font-size: .32rem;
   font-weight: bold;
 }
 .me table {
-  font-size: .28rem;
+  font-size: .32rem;
   font-family: "宋体";
   color: #4C4C4C;
   width: 100%;
-  border: .01rem solid #E1E1E1;
+  border: 1px solid #E1E1E1;
   border-collapse: collapse;
 }
 .me table tr {
   width: 100%;
 }
 .me table tr td {
-  border: .01rem solid #E1E1E1;
+  border: 1px solid #E1E1E1;
   border-collapse: collapse;
   height: .71rem;
   line-height: .71rem;
